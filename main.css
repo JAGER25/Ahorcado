@@ -1,0 +1,156 @@
+/*general*/
+ font-face{
+    @import url('https://fonts.googleapis.com/css2? family= Andika & family= Comic+Neue & family= IBM+Plex+Sans+Thai+Looped & family= Montserrat:wght@300; 400 & mostrar=cambiar');
+ }
+*{
+    box-sizing: border-box;
+}
+html, body{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background: #F3F5FC;
+
+}
+/*main*/
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;;
+    font-size: 0.8vw;
+    color: rgb(14, 185, 14);
+    align-items: center;
+    align-content: center;
+    background-color: #f3fcf5;
+
+}
+.logo{
+    width: 5vw;
+    height: auto;
+    margin-left: 2vw;
+    position: absolute;
+    object-fit: none;
+    object-position: 2vw 15%;
+    width: 100%;
+
+}
+/*area dibujo canvas*/
+.guess{
+    width: 50vw;
+    height: 35vw;
+    max-width: 968px;
+    max-height: 600px;
+    margin:0;
+    padding: 0;
+    background-color: rgb(214, 241, 242);
+    border-radius: 3vw;
+
+}
+
+/*input new word*/
+div.input{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    align-items: center;
+    align-content: center;
+}
+.newWord,
+.arriesgar,
+.letra{
+    font-size: 1.5rem;
+    margin:1rem;
+    padding: 0.5rem ;
+    border-radius: 10px;
+    border: 1px solid rgb(14, 185, 14);;
+    align-content: center;
+    color:rgb(14, 185, 14); ;
+}
+/*seccion letra comprobar*/
+.validate{
+    display: flex;
+    margin: 0 auto;
+    padding: .5rem;
+    
+}
+.btn-addWord{
+    border-radius: 100%;
+}
+/*botones*/
+ div.buttons{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.2rem;
+    margin: 0 auto;
+}
+ .btn{
+
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+
+
+}
+.btn-newGame,
+.btn-desist,
+.btn-addWord{
+  padding: 0.9rem 1rem;
+  margin: 2vw;
+  color:rgb(14, 185, 14);
+  border: none;
+  border-radius: 10px;
+
+}
+.btn-newGame,
+.btn-addWord{
+    background-color: rgb(14, 185, 14);
+    color: #fff;
+
+}
+.btn-desist{
+    border: 1px solid rgb(14, 185, 14);
+    color: rgb(14, 185, 14);
+    padding: 0.9rem 2rem;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(14, 152, 162);
+}
+
+/* Guiones palabra oculta*/
+#word{
+    font-size: 2vw;
+    height: 100%;
+    width: auto;
+}
+/*Footer*/
+footer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    align-content: space-between ;
+}
+/*iconos*/
+.icon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+    width: 30%;
+    
+    
+}
